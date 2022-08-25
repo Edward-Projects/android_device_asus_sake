@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sake.mk
+    $(LOCAL_DIR)/aosp_sake.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_sake-eng \
-    lineage_sake-user \
-    lineage_sake-userdebug
+    aosp_sake-eng \
+    aosp_sake-user \
+    aosp_sake-userdebug

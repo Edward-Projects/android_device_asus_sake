@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "Edward-Projects/android_kernel_asus_sm8350",
+    "target_path": "kernel/asus/sm8350",
+    "branch"       : "sunflowerleaf",
+    "remote"       : "github"
+  },
+  { 
+    "repository"   : "Edward-Projects/proprietary_vendor_asus_sake",
+    "target_path"  : "vendor/asus/sake",
+    "branch"       : "sunflowerleaf",
+    "remote"       : "github"
+  }
+]

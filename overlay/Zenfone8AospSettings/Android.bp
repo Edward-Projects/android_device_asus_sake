@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "Zenfone8LineageSDK",
+    name: "Zenfone8AospSettings",
     vendor: true,
 }
