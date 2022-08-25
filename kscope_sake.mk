@@ -11,14 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from the device configuration.
 $(call inherit-product, device/asus/sake/device.mk)
 
-# Inherit from the Lineage configuration.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit common Kaleidoscope configurations
+$(call inherit-product, vendor/kscope/target/product/mobile.mk)
 
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := sake
 PRODUCT_MANUFACTURER := asus
 PRODUCT_MODEL := ASUS_I006D
-PRODUCT_NAME := lineage_sake
+PRODUCT_NAME := kscope_sake
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
