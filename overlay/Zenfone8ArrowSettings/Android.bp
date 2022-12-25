@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "Zenfone8LineageSettings",
+    name: "Zenfone8ArrowSettings",
     vendor: true,
 }

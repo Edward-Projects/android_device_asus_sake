@@ -87,7 +87,6 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/hidl/asus_framework_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml \
     vendor/nxp/nfc/vendor_framework_compatibility_matrix.xml \
     vendor/nxp/secure_element/vendor_framework_compatibility_matrix.xml
 
@@ -234,12 +233,10 @@ BOARD_DTBOIMG_PARTITION_SIZE := 0x1800000
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := $(BOARD_BOOTIMAGE_PARTITION_SIZE)
 
-ifneq ($(WITH_GMS),true)
 ifneq ($(PRODUCT_RO_FILE_SYSTEM),erofs)
 BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 1000000000
 BOARD_SYSTEMIMAGE_PARTITION_RESERVED_SIZE := 100000000
 BOARD_SYSTEM_EXTIMAGE_PARTITION_RESERVED_SIZE := 100000000
-endif
 endif
 
 BOARD_ODMIMAGE_FILE_SYSTEM_TYPE := $(PRODUCT_RO_FILE_SYSTEM)

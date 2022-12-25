@@ -183,7 +183,6 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.15.vendor \
     vendor.display.config@2.0 \
     vendor.display.config@2.0.vendor \
-    vendor.lineage.livedisplay@2.0-service-sdm \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.composer-service \
     vendor.qti.hardware.display.mapper@1.1.vendor \
@@ -307,9 +306,8 @@ PRODUCT_PACKAGES += \
     WifiResCommon \
     WifiResTarget \
     Zenfone8Frameworks \
-    Zenfone8LineageSDK \
-    Zenfone8LineageSettings \
-    Zenfone8LineageSystemUI \
+    Zenfone8ArrowSettings \
+    Zenfone8ArrowSystemUI \
     Zenfone8Settings \
     Zenfone8SettingsProvider \
     Zenfone8SystemUI \
@@ -415,10 +413,6 @@ PRODUCT_BOOT_JARS += \
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti
-
-# Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.sake
 
 # TrustedUI
 PRODUCT_PACKAGES += \
